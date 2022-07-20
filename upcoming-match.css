@@ -79,7 +79,7 @@ header{
 .blogs-videos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 340px;
+    height: 231px;
     width: 1185px;
     margin-top: 120px;
     margin-left: 173px;
@@ -105,7 +105,7 @@ header{
 }
 
 .upcoming-match button{
-    background-color: white;
+    background-color: #DD0000;
     height: 60px;
     width: 225px;
     border-radius: 10px;
@@ -113,7 +113,7 @@ header{
 
 .upcoming-match button a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
@@ -146,7 +146,7 @@ header{
 
 
 .blogs button{
-    background-color: #DD0000;
+    background-color: white;
     height: 60px;
     width: 225px;
     border-radius: 10px;
@@ -154,7 +154,7 @@ header{
 
 .blogs button a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     
@@ -168,63 +168,51 @@ header{
 .blogs-videos-2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 680px;
+    height: 230px;
     width: 892px;
-    margin-left: 468px;
+    margin-left: 470px;
     margin-bottom: 60px;
     
     
 }
 
 .blog-video{
-    Width:270px;
-    Height:315px;
+    Width:280px;
+    Height:215px;
     border: 1px solid wheat;
     border-radius: 13px;
     
 
 }
-.blog-video .banner-img img{
-    padding-right: 2.5px;
-    width: 100%;
-}
-.transfer-button{
-    height: 45px;
-    width: 50px;
-    padding-top: 25px;
-    padding-left: 20px;
-    
-    
-
-    
-}
-.transfer-button button{
-    background-color: white;
-    border-radius: 6px;
-    
-}
-
-.transfer-button a{
-    text-decoration: none;
-    font-size: 15px;
-    color: black;
+.banner{
     display: flex;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 90px;
+    margin-top: 45px;
+    padding-right: 20px;
+
 }
+.vs h3{
+    padding-bottom: 100px;
+}
+
+.blog-video .banner-img img{
+    width: 83px;
+    height: 65px;
+    padding-left: 23px;
+    padding-right: 20px;
+}
+
 
 .video-title article{
-    padding-left: 20px;
+    padding-left: 50px;
     font-size: 18px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .video-duration{
     display: flex;
-    padding-left:0px;
+    padding-left:65px;
+    font-size: small;
     color: rgb(49, 43, 43);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -256,9 +244,6 @@ h4 > span{
     text-decoration: none;
     color: white
 }
-
-
-/* footer section*/
 
 footer{
     display: flex;
@@ -294,7 +279,6 @@ hr{
     
     text-decoration: none;
 }
-
 .footer-icon{
     display: flex;
     margin-left: 587px;
@@ -314,5 +298,7 @@ hr{
     color: white;
     font-size: small;
 }
+
+
 
 
