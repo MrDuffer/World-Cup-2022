@@ -282,6 +282,8 @@ hr{
     display: flex;
     padding-left: 225px;
     padding-top: 25px;
+    margin-left: 60px;
+    
 }
 .footer-content a{
     color: white;
